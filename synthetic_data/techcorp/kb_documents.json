@@ -1,0 +1,252 @@
+[
+  {
+    "doc_id": "kb-001",
+    "title": "Incident Response Playbook",
+    "domain": "Engineering Ops",
+    "source": "Confluence",
+    "last_updated": "2026-03-02T10:20:00Z",
+    "owner": "platform",
+    "tags": [
+      "incident",
+      "sre",
+      "runbook"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "SRE",
+        "Senior Engineer",
+        "Staff Engineer",
+        "Engineering Manager",
+        "Director Eng",
+        "Security Engineer",
+        "VP Engineering"
+      ]
+    },
+    "content": "Severity classification, paging matrix, and mitigation checklist for P0-P3 incidents. Includes communication templates and postmortem timeline standards.",
+    "source_url": "https://wiki.techcorp.internal/ops/incident-response-playbook"
+  },
+  {
+    "doc_id": "kb-002",
+    "title": "Payments Rollback Runbook",
+    "domain": "Product Support",
+    "source": "Notion",
+    "last_updated": "2026-02-20T16:10:00Z",
+    "owner": "payments",
+    "tags": [
+      "payments",
+      "rollback",
+      "deploy"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng"
+      ]
+    },
+    "content": "Step-by-step rollback procedure for payments-api including feature flags, database migration safeguards, and verification checks.",
+    "source_url": "https://notion.techcorp.internal/payments/runbook-rollback"
+  },
+  {
+    "doc_id": "kb-003",
+    "title": "On-Call Escalation Policy",
+    "domain": "IT Helpdesk",
+    "source": "Confluence",
+    "last_updated": "2026-03-15T09:00:00Z",
+    "owner": "platform",
+    "tags": [
+      "oncall",
+      "policy",
+      "escalation"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "SRE",
+        "Senior Engineer",
+        "Staff Engineer",
+        "Engineering Manager",
+        "Director Eng",
+        "Product Manager",
+        "On-Call Coordinator",
+        "Security Engineer",
+        "VP Engineering"
+      ]
+    },
+    "content": "Primary ack target is 5 minutes. Escalation to secondary after 10 minutes and incident commander assignment after 15 minutes for Sev-1/2.",
+    "source_url": "https://wiki.techcorp.internal/ops/oncall-escalation"
+  },
+  {
+    "doc_id": "kb-004",
+    "title": "Security Access Review SOP",
+    "domain": "Security",
+    "source": "Confluence",
+    "last_updated": "2026-03-18T14:30:00Z",
+    "owner": "security",
+    "tags": [
+      "security",
+      "access",
+      "audit"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Security Engineer",
+        "Director Eng",
+        "VP Engineering"
+      ]
+    },
+    "content": "Quarterly access recertification policy for privileged systems. Includes emergency revoke workflow and evidence requirements.",
+    "source_url": "https://wiki.techcorp.internal/security/access-review-sop"
+  },
+  {
+    "doc_id": "kb-005",
+    "title": "Search Ranking Experiment Guide",
+    "domain": "Engineering Ops",
+    "source": "Notion",
+    "last_updated": "2026-02-27T11:40:00Z",
+    "owner": "search",
+    "tags": [
+      "search",
+      "experimentation",
+      "ranking"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "ml_infra"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "Staff Engineer",
+        "Data Engineer",
+        "Engineering Manager"
+      ]
+    },
+    "content": "Experiment lifecycle for search relevance updates: hypothesis, guardrail metrics, rollout gates, and rollback triggers.",
+    "source_url": "https://notion.techcorp.internal/search/experiment-guide"
+  },
+  {
+    "doc_id": "kb-006",
+    "title": "Engineering Roadmap Q2",
+    "domain": "Product Support",
+    "source": "Confluence",
+    "last_updated": "2026-03-25T12:00:00Z",
+    "owner": "platform",
+    "tags": [
+      "roadmap",
+      "q2",
+      "planning"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Director Eng",
+        "VP Engineering",
+        "Engineering Manager"
+      ]
+    },
+    "content": "Cross-team quarterly plan with milestones for reliability, developer productivity, and cost optimization programs.",
+    "source_url": "https://wiki.techcorp.internal/eng/roadmap-q2"
+  },
+  {
+    "doc_id": "kb-007",
+    "title": "Data Retention Policy",
+    "domain": "Security",
+    "source": "Confluence",
+    "last_updated": "2026-01-30T08:20:00Z",
+    "owner": "security",
+    "tags": [
+      "compliance",
+      "retention",
+      "policy"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Security Engineer",
+        "SRE",
+        "Senior Engineer",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "content": "Retention windows by data class: logs 90 days hot/365 days cold, PII snapshots encrypted and restricted with 30-day purge SLA.",
+    "source_url": "https://wiki.techcorp.internal/security/data-retention"
+  },
+  {
+    "doc_id": "kb-008",
+    "title": "Helpdesk Triage Matrix",
+    "domain": "IT Helpdesk",
+    "source": "Notion",
+    "last_updated": "2026-02-11T15:45:00Z",
+    "owner": "platform",
+    "tags": [
+      "helpdesk",
+      "triage",
+      "support"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "On-Call Coordinator",
+        "SRE",
+        "Senior Engineer",
+        "Engineering Manager",
+        "Product Manager",
+        "Director Eng"
+      ]
+    },
+    "content": "Ticket priority matrix and assignment workflow for internal support issues. Defines SLA targets by severity and business impact.",
+    "source_url": "https://notion.techcorp.internal/helpdesk/triage-matrix"
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "channel_id": "c-eng-platform",
+    "name": "eng-platform",
+    "visibility": "team",
+    "allowed_teams": [
+      "platform"
+    ],
+    "allowed_roles": [
+      "SRE",
+      "Senior Engineer",
+      "Staff Engineer",
+      "Engineering Manager",
+      "Director Eng",
+      "VP Engineering"
+    ]
+  },
+  {
+    "channel_id": "c-incidents",
+    "name": "incidents-warroom",
+    "visibility": "internal",
+    "allowed_teams": [
+      "platform",
+      "payments",
+      "search",
+      "ml_infra",
+      "security"
+    ],
+    "allowed_roles": [
+      "SRE",
+      "Senior Engineer",
+      "Staff Engineer",
+      "Engineering Manager",
+      "Director Eng",
+      "Security Engineer",
+      "VP Engineering"
+    ]
+  },
+  {
+    "channel_id": "c-payments",
+    "name": "payments-ops",
+    "visibility": "team",
+    "allowed_teams": [
+      "payments"
+    ],
+    "allowed_roles": [
+      "Senior Engineer",
+      "Product Manager",
+      "Engineering Manager",
+      "Director Eng"
+    ]
+  },
+  {
+    "channel_id": "c-search",
+    "name": "search-ranking",
+    "visibility": "team",
+    "allowed_teams": [
+      "search",
+      "ml_infra"
+    ],
+    "allowed_roles": [
+      "Senior Engineer",
+      "Staff Engineer",
+      "Data Engineer",
+      "Engineering Manager"
+    ]
+  },
+  {
+    "channel_id": "c-security",
+    "name": "security-alerts",
+    "visibility": "restricted",
+    "allowed_teams": [
+      "security",
+      "platform"
+    ],
+    "allowed_roles": [
+      "Security Engineer",
+      "SRE",
+      "Director Eng",
+      "VP Engineering"
+    ]
+  },
+  {
+    "channel_id": "c-announce",
+    "name": "eng-announcements",
+    "visibility": "internal",
+    "allowed_teams": [
+      "platform",
+      "payments",
+      "search",
+      "ml_infra",
+      "security"
+    ],
+    "allowed_roles": [
+      "SRE",
+      "Senior Engineer",
+      "Staff Engineer",
+      "Engineering Manager",
+      "Product Manager",
+      "Director Eng",
+      "Data Engineer",
+      "On-Call Coordinator",
+      "Security Engineer",
+      "VP Engineering"
+    ]
+  }
+]

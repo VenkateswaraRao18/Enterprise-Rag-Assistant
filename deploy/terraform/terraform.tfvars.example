@@ -1,0 +1,8 @@
+aws_region   = "us-east-1"
+project_name = "techcorp-rag"
+api_image_tag = "latest"
+
+# Add CloudFront URL after frontend deploy, e.g.:
+# cors_origins = "http://localhost:5173,https://d1234abcd.cloudfront.net"
+
+cors_origins = "http://localhost:5173,http://127.0.0.1:5173"

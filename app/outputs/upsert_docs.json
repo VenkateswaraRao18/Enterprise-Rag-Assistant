@@ -1,0 +1,1752 @@
+[
+  {
+    "doc_id": "incident:INC-1200:90a036abd13a",
+    "source_type": "incident",
+    "source_id": "INC-1200",
+    "title": "INC-1200 | SEV1 | deploy-orchestrator",
+    "content": "Incident INC-1200 severity SEV1 status Postmortem Pending on deploy-orchestrator. duration_minutes 74. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-04-15T16:07:00Z",
+    "updated_at": "2026-04-15T17:21:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "deploy-orchestrator",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1200",
+      "deploy-orchestrator"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1200",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 74
+    }
+  },
+  {
+    "doc_id": "incident:INC-1201:362a29e2aa39",
+    "source_type": "incident",
+    "source_id": "INC-1201",
+    "title": "INC-1201 | SEV3 | search-indexer",
+    "content": "Incident INC-1201 severity SEV3 status Postmortem Pending on search-indexer. duration_minutes 62. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-03-19T03:09:00Z",
+    "updated_at": "2026-03-19T04:11:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV3",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1201",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1201",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 62
+    }
+  },
+  {
+    "doc_id": "incident:INC-1202:9dfad4254099",
+    "source_type": "incident",
+    "source_id": "INC-1202",
+    "title": "INC-1202 | SEV2 | checkout-worker",
+    "content": "Incident INC-1202 severity SEV2 status Postmortem Pending on checkout-worker. duration_minutes 95. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-19T19:17:00Z",
+    "updated_at": "2026-03-19T20:52:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV2",
+      "checkout-worker",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1202",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1202",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 95
+    }
+  },
+  {
+    "doc_id": "incident:INC-1203:beedbd58e766",
+    "source_type": "incident",
+    "source_id": "INC-1203",
+    "title": "INC-1203 | SEV2 | search-indexer",
+    "content": "Incident INC-1203 severity SEV2 status Monitoring on search-indexer. duration_minutes 79. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: Traffic shift and pod autoscale increase.",
+    "timestamp": "2026-02-23T11:35:00Z",
+    "updated_at": "2026-02-23T12:54:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1203",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1203",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 79
+    }
+  },
+  {
+    "doc_id": "incident:INC-1204:39067d86676e",
+    "source_type": "incident",
+    "source_id": "INC-1204",
+    "title": "INC-1204 | SEV3 | checkout-worker",
+    "content": "Incident INC-1204 severity SEV3 status Resolved on checkout-worker. duration_minutes 65. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-02-16T23:14:00Z",
+    "updated_at": "2026-02-17T00:19:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV3",
+      "checkout-worker",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1204",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1204",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 65
+    }
+  },
+  {
+    "doc_id": "incident:INC-1205:f17cea0d2b84",
+    "source_type": "incident",
+    "source_id": "INC-1205",
+    "title": "INC-1205 | SEV3 | payments-api",
+    "content": "Incident INC-1205 severity SEV3 status Monitoring on payments-api. duration_minutes 97. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-03-16T17:39:00Z",
+    "updated_at": "2026-03-16T19:16:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV3",
+      "payments-api",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1205",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1205",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 97
+    }
+  },
+  {
+    "doc_id": "incident:INC-1206:cfa80397c567",
+    "source_type": "incident",
+    "source_id": "INC-1206",
+    "title": "INC-1206 | SEV2 | payments-api",
+    "content": "Incident INC-1206 severity SEV2 status Resolved on payments-api. duration_minutes 84. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-02-19T15:59:00Z",
+    "updated_at": "2026-02-19T17:23:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV2",
+      "payments-api",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1206",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1206",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 84
+    }
+  },
+  {
+    "doc_id": "incident:INC-1207:10bde6e835b9",
+    "source_type": "incident",
+    "source_id": "INC-1207",
+    "title": "INC-1207 | SEV3 | feature-store",
+    "content": "Incident INC-1207 severity SEV3 status Postmortem Pending on feature-store. duration_minutes 57. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-04-19T01:46:00Z",
+    "updated_at": "2026-04-19T02:43:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV3",
+      "feature-store",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1207",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1207",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 57
+    }
+  },
+  {
+    "doc_id": "incident:INC-1208:b3ef98e43dd4",
+    "source_type": "incident",
+    "source_id": "INC-1208",
+    "title": "INC-1208 | SEV1 | feature-store",
+    "content": "Incident INC-1208 severity SEV1 status Resolved on feature-store. duration_minutes 112. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-04-18T01:49:00Z",
+    "updated_at": "2026-04-18T03:41:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV1",
+      "feature-store",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1208",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1208",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 112
+    }
+  },
+  {
+    "doc_id": "incident:INC-1209:5212f59daac9",
+    "source_type": "incident",
+    "source_id": "INC-1209",
+    "title": "INC-1209 | SEV3 | auth-gateway",
+    "content": "Incident INC-1209 severity SEV3 status Postmortem Pending on auth-gateway. duration_minutes 108. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-03-09T06:02:00Z",
+    "updated_at": "2026-03-09T07:50:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV3",
+      "auth-gateway",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1209",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1209",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 108
+    }
+  },
+  {
+    "doc_id": "incident:INC-1210:57a6d0c267b0",
+    "source_type": "incident",
+    "source_id": "INC-1210",
+    "title": "INC-1210 | SEV3 | payments-api",
+    "content": "Incident INC-1210 severity SEV3 status Monitoring on payments-api. duration_minutes 8. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-19T07:41:00Z",
+    "updated_at": "2026-03-19T07:49:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV3",
+      "payments-api",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1210",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1210",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 8
+    }
+  },
+  {
+    "doc_id": "incident:INC-1211:db0560389e00",
+    "source_type": "incident",
+    "source_id": "INC-1211",
+    "title": "INC-1211 | SEV1 | deploy-orchestrator",
+    "content": "Incident INC-1211 severity SEV1 status Resolved on deploy-orchestrator. duration_minutes 74. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-24T18:12:00Z",
+    "updated_at": "2026-03-24T19:26:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV1",
+      "deploy-orchestrator",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1211",
+      "deploy-orchestrator"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1211",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 74
+    }
+  },
+  {
+    "doc_id": "incident:INC-1212:1346127cd540",
+    "source_type": "incident",
+    "source_id": "INC-1212",
+    "title": "INC-1212 | SEV3 | search-indexer",
+    "content": "Incident INC-1212 severity SEV3 status Postmortem Pending on search-indexer. duration_minutes 52. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-04-13T18:22:00Z",
+    "updated_at": "2026-04-13T19:14:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV3",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1212",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1212",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 52
+    }
+  },
+  {
+    "doc_id": "incident:INC-1213:4b669e5d6248",
+    "source_type": "incident",
+    "source_id": "INC-1213",
+    "title": "INC-1213 | SEV1 | auth-gateway",
+    "content": "Incident INC-1213 severity SEV1 status Postmortem Pending on auth-gateway. duration_minutes 41. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-03-24T18:00:00Z",
+    "updated_at": "2026-03-24T18:41:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV1",
+      "auth-gateway",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1213",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1213",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 41
+    }
+  },
+  {
+    "doc_id": "incident:INC-1214:24835e303e24",
+    "source_type": "incident",
+    "source_id": "INC-1214",
+    "title": "INC-1214 | SEV2 | search-indexer",
+    "content": "Incident INC-1214 severity SEV2 status Postmortem Pending on search-indexer. duration_minutes 110. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-10T10:07:00Z",
+    "updated_at": "2026-03-10T11:57:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1214",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1214",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 110
+    }
+  },
+  {
+    "doc_id": "incident:INC-1215:c46d20c13f10",
+    "source_type": "incident",
+    "source_id": "INC-1215",
+    "title": "INC-1215 | SEV2 | search-indexer",
+    "content": "Incident INC-1215 severity SEV2 status Postmortem Pending on search-indexer. duration_minutes 106. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-03-21T18:30:00Z",
+    "updated_at": "2026-03-21T20:16:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1215",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1215",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 106
+    }
+  },
+  {
+    "doc_id": "incident:INC-1216:78757b06b402",
+    "source_type": "incident",
+    "source_id": "INC-1216",
+    "title": "INC-1216 | SEV1 | deploy-orchestrator",
+    "content": "Incident INC-1216 severity SEV1 status Postmortem Pending on deploy-orchestrator. duration_minutes 41. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-02-04T15:07:00Z",
+    "updated_at": "2026-02-04T15:48:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "deploy-orchestrator",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1216",
+      "deploy-orchestrator"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1216",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 41
+    }
+  },
+  {
+    "doc_id": "incident:INC-1217:765ea231f39a",
+    "source_type": "incident",
+    "source_id": "INC-1217",
+    "title": "INC-1217 | SEV1 | search-indexer",
+    "content": "Incident INC-1217 severity SEV1 status Monitoring on search-indexer. duration_minutes 76. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-25T11:33:00Z",
+    "updated_at": "2026-03-25T12:49:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "search-indexer",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1217",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1217",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 76
+    }
+  },
+  {
+    "doc_id": "incident:INC-1218:9ffc64b34f05",
+    "source_type": "incident",
+    "source_id": "INC-1218",
+    "title": "INC-1218 | SEV1 | search-indexer",
+    "content": "Incident INC-1218 severity SEV1 status Resolved on search-indexer. duration_minutes 127. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-16T02:35:00Z",
+    "updated_at": "2026-03-16T04:42:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV1",
+      "search-indexer",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1218",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1218",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 127
+    }
+  },
+  {
+    "doc_id": "incident:INC-1219:6328d514ddb6",
+    "source_type": "incident",
+    "source_id": "INC-1219",
+    "title": "INC-1219 | SEV3 | feature-store",
+    "content": "Incident INC-1219 severity SEV3 status Resolved on feature-store. duration_minutes 127. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-02-24T23:43:00Z",
+    "updated_at": "2026-02-25T01:50:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV3",
+      "feature-store",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1219",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1219",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 127
+    }
+  },
+  {
+    "doc_id": "incident:INC-1220:7afd3e81b397",
+    "source_type": "incident",
+    "source_id": "INC-1220",
+    "title": "INC-1220 | SEV2 | auth-gateway",
+    "content": "Incident INC-1220 severity SEV2 status Resolved on auth-gateway. duration_minutes 114. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-02-27T07:12:00Z",
+    "updated_at": "2026-02-27T09:06:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV2",
+      "auth-gateway",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1220",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1220",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 114
+    }
+  },
+  {
+    "doc_id": "incident:INC-1221:3ac6b998f8d5",
+    "source_type": "incident",
+    "source_id": "INC-1221",
+    "title": "INC-1221 | SEV3 | auth-gateway",
+    "content": "Incident INC-1221 severity SEV3 status Monitoring on auth-gateway. duration_minutes 71. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-02-11T21:42:00Z",
+    "updated_at": "2026-02-11T22:53:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV3",
+      "auth-gateway",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1221",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1221",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 71
+    }
+  },
+  {
+    "doc_id": "incident:INC-1222:51dd6b2f23ee",
+    "source_type": "incident",
+    "source_id": "INC-1222",
+    "title": "INC-1222 | SEV3 | search-indexer",
+    "content": "Incident INC-1222 severity SEV3 status Resolved on search-indexer. duration_minutes 120. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-13T15:57:00Z",
+    "updated_at": "2026-03-13T17:57:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "search-indexer",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1222",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1222",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 120
+    }
+  },
+  {
+    "doc_id": "incident:INC-1223:2f2c44ac925a",
+    "source_type": "incident",
+    "source_id": "INC-1223",
+    "title": "INC-1223 | SEV1 | auth-gateway",
+    "content": "Incident INC-1223 severity SEV1 status Monitoring on auth-gateway. duration_minutes 81. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-03-23T07:48:00Z",
+    "updated_at": "2026-03-23T09:09:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV1",
+      "auth-gateway",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1223",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1223",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 81
+    }
+  },
+  {
+    "doc_id": "incident:INC-1224:531861532329",
+    "source_type": "incident",
+    "source_id": "INC-1224",
+    "title": "INC-1224 | SEV3 | checkout-worker",
+    "content": "Incident INC-1224 severity SEV3 status Resolved on checkout-worker. duration_minutes 118. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-04-06T11:25:00Z",
+    "updated_at": "2026-04-06T13:23:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "checkout-worker",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1224",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1224",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 118
+    }
+  },
+  {
+    "doc_id": "incident:INC-1225:d3a0d1094922",
+    "source_type": "incident",
+    "source_id": "INC-1225",
+    "title": "INC-1225 | SEV3 | feature-store",
+    "content": "Incident INC-1225 severity SEV3 status Resolved on feature-store. duration_minutes 9. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-13T22:00:00Z",
+    "updated_at": "2026-03-13T22:09:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV3",
+      "feature-store",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1225",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1225",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 9
+    }
+  },
+  {
+    "doc_id": "incident:INC-1226:a18bde3c948a",
+    "source_type": "incident",
+    "source_id": "INC-1226",
+    "title": "INC-1226 | SEV2 | search-indexer",
+    "content": "Incident INC-1226 severity SEV2 status Postmortem Pending on search-indexer. duration_minutes 78. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-04-20T08:11:00Z",
+    "updated_at": "2026-04-20T09:29:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1226",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1226",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 78
+    }
+  },
+  {
+    "doc_id": "incident:INC-1227:4c3f0186c3fe",
+    "source_type": "incident",
+    "source_id": "INC-1227",
+    "title": "INC-1227 | SEV2 | search-indexer",
+    "content": "Incident INC-1227 severity SEV2 status Monitoring on search-indexer. duration_minutes 34. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-02-24T15:27:00Z",
+    "updated_at": "2026-02-24T16:01:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1227",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1227",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 34
+    }
+  },
+  {
+    "doc_id": "incident:INC-1228:00abb218cea9",
+    "source_type": "incident",
+    "source_id": "INC-1228",
+    "title": "INC-1228 | SEV3 | payments-api",
+    "content": "Incident INC-1228 severity SEV3 status Resolved on payments-api. duration_minutes 81. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-02-24T18:08:00Z",
+    "updated_at": "2026-02-24T19:29:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV3",
+      "payments-api",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1228",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1228",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 81
+    }
+  },
+  {
+    "doc_id": "incident:INC-1229:ebe1246a3c76",
+    "source_type": "incident",
+    "source_id": "INC-1229",
+    "title": "INC-1229 | SEV3 | checkout-worker",
+    "content": "Incident INC-1229 severity SEV3 status Resolved on checkout-worker. duration_minutes 110. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-21T06:09:00Z",
+    "updated_at": "2026-03-21T07:59:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "checkout-worker",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1229",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1229",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 110
+    }
+  },
+  {
+    "doc_id": "incident:INC-1230:f9c5719e3b2b",
+    "source_type": "incident",
+    "source_id": "INC-1230",
+    "title": "INC-1230 | SEV3 | auth-gateway",
+    "content": "Incident INC-1230 severity SEV3 status Monitoring on auth-gateway. duration_minutes 116. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-04-05T04:57:00Z",
+    "updated_at": "2026-04-05T06:53:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV3",
+      "auth-gateway",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1230",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1230",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 116
+    }
+  },
+  {
+    "doc_id": "incident:INC-1231:532b3ef3f85b",
+    "source_type": "incident",
+    "source_id": "INC-1231",
+    "title": "INC-1231 | SEV1 | checkout-worker",
+    "content": "Incident INC-1231 severity SEV1 status Resolved on checkout-worker. duration_minutes 58. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-04-13T18:03:00Z",
+    "updated_at": "2026-04-13T19:01:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV1",
+      "checkout-worker",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1231",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1231",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 58
+    }
+  },
+  {
+    "doc_id": "incident:INC-1232:595b6f50e67c",
+    "source_type": "incident",
+    "source_id": "INC-1232",
+    "title": "INC-1232 | SEV2 | search-indexer",
+    "content": "Incident INC-1232 severity SEV2 status Postmortem Pending on search-indexer. duration_minutes 103. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-04-22T03:28:00Z",
+    "updated_at": "2026-04-22T05:11:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1232",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1232",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 103
+    }
+  },
+  {
+    "doc_id": "incident:INC-1233:1a26682ac8f8",
+    "source_type": "incident",
+    "source_id": "INC-1233",
+    "title": "INC-1233 | SEV2 | deploy-orchestrator",
+    "content": "Incident INC-1233 severity SEV2 status Resolved on deploy-orchestrator. duration_minutes 23. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-03-17T00:26:00Z",
+    "updated_at": "2026-03-17T00:49:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV2",
+      "deploy-orchestrator",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1233",
+      "deploy-orchestrator"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1233",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 23
+    }
+  },
+  {
+    "doc_id": "incident:INC-1234:ea9556da8976",
+    "source_type": "incident",
+    "source_id": "INC-1234",
+    "title": "INC-1234 | SEV2 | deploy-orchestrator",
+    "content": "Incident INC-1234 severity SEV2 status Monitoring on deploy-orchestrator. duration_minutes 44. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-04-10T05:49:00Z",
+    "updated_at": "2026-04-10T06:33:00Z",
+    "owners": [
+      "security"
+    ],
+    "tags": [
+      "SEV2",
+      "deploy-orchestrator",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1234",
+      "deploy-orchestrator"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1234",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 44
+    }
+  },
+  {
+    "doc_id": "incident:INC-1235:c6f7de4ca7a0",
+    "source_type": "incident",
+    "source_id": "INC-1235",
+    "title": "INC-1235 | SEV3 | checkout-worker",
+    "content": "Incident INC-1235 severity SEV3 status Postmortem Pending on checkout-worker. duration_minutes 67. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-21T19:18:00Z",
+    "updated_at": "2026-03-21T20:25:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV3",
+      "checkout-worker",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1235",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1235",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 67
+    }
+  },
+  {
+    "doc_id": "incident:INC-1236:ae9d0af2d246",
+    "source_type": "incident",
+    "source_id": "INC-1236",
+    "title": "INC-1236 | SEV3 | payments-api",
+    "content": "Incident INC-1236 severity SEV3 status Resolved on payments-api. duration_minutes 59. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Traffic shift and pod autoscale increase.",
+    "timestamp": "2026-04-22T19:36:00Z",
+    "updated_at": "2026-04-22T20:35:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV3",
+      "payments-api",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1236",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1236",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 59
+    }
+  },
+  {
+    "doc_id": "incident:INC-1237:7ca613eca9d9",
+    "source_type": "incident",
+    "source_id": "INC-1237",
+    "title": "INC-1237 | SEV3 | auth-gateway",
+    "content": "Incident INC-1237 severity SEV3 status Monitoring on auth-gateway. duration_minutes 45. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-13T10:41:00Z",
+    "updated_at": "2026-03-13T11:26:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "auth-gateway",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1237",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1237",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 45
+    }
+  },
+  {
+    "doc_id": "incident:INC-1238:4ec22a6e23ac",
+    "source_type": "incident",
+    "source_id": "INC-1238",
+    "title": "INC-1238 | SEV1 | payments-api",
+    "content": "Incident INC-1238 severity SEV1 status Postmortem Pending on payments-api. duration_minutes 60. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-04-17T16:28:00Z",
+    "updated_at": "2026-04-17T17:28:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "payments-api",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1238",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1238",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 60
+    }
+  },
+  {
+    "doc_id": "incident:INC-1239:3819a2019d72",
+    "source_type": "incident",
+    "source_id": "INC-1239",
+    "title": "INC-1239 | SEV1 | payments-api",
+    "content": "Incident INC-1239 severity SEV1 status Postmortem Pending on payments-api. duration_minutes 58. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-02-11T06:10:00Z",
+    "updated_at": "2026-02-11T07:08:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV1",
+      "payments-api",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1239",
+      "payments-api"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1239",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 58
+    }
+  },
+  {
+    "doc_id": "incident:INC-1240:6fa328f3a044",
+    "source_type": "incident",
+    "source_id": "INC-1240",
+    "title": "INC-1240 | SEV1 | auth-gateway",
+    "content": "Incident INC-1240 severity SEV1 status Resolved on auth-gateway. duration_minutes 18. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Downstream dependency timeout cascade. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-23T16:48:00Z",
+    "updated_at": "2026-03-23T17:06:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "auth-gateway",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1240",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1240",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 18
+    }
+  },
+  {
+    "doc_id": "incident:INC-1241:ad12ceb0028f",
+    "source_type": "incident",
+    "source_id": "INC-1241",
+    "title": "INC-1241 | SEV2 | checkout-worker",
+    "content": "Incident INC-1241 severity SEV2 status Postmortem Pending on checkout-worker. duration_minutes 44. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-03-02T07:47:00Z",
+    "updated_at": "2026-03-02T08:31:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV2",
+      "checkout-worker",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1241",
+      "checkout-worker"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1241",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 44
+    }
+  },
+  {
+    "doc_id": "incident:INC-1242:d2be92ae573a",
+    "source_type": "incident",
+    "source_id": "INC-1242",
+    "title": "INC-1242 | SEV3 | feature-store",
+    "content": "Incident INC-1242 severity SEV3 status Postmortem Pending on feature-store. duration_minutes 118. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Queue drain and circuit breaker enablement.",
+    "timestamp": "2026-02-05T21:22:00Z",
+    "updated_at": "2026-02-05T23:20:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "feature-store",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1242",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1242",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 118
+    }
+  },
+  {
+    "doc_id": "incident:INC-1243:4c1099623b11",
+    "source_type": "incident",
+    "source_id": "INC-1243",
+    "title": "INC-1243 | SEV1 | auth-gateway",
+    "content": "Incident INC-1243 severity SEV1 status Postmortem Pending on auth-gateway. duration_minutes 77. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-29T04:44:00Z",
+    "updated_at": "2026-03-29T06:01:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV1",
+      "auth-gateway",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1243",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1243",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 77
+    }
+  },
+  {
+    "doc_id": "incident:INC-1244:f8b1343fc52a",
+    "source_type": "incident",
+    "source_id": "INC-1244",
+    "title": "INC-1244 | SEV2 | search-indexer",
+    "content": "Incident INC-1244 severity SEV2 status Postmortem Pending on search-indexer. duration_minutes 76. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Misconfigured feature flag rollout. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-04-09T20:40:00Z",
+    "updated_at": "2026-04-09T21:56:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Postmortem Pending"
+    ],
+    "entities": [
+      "INC-1244",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1244",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 76
+    }
+  },
+  {
+    "doc_id": "incident:INC-1245:92af5b6ba236",
+    "source_type": "incident",
+    "source_id": "INC-1245",
+    "title": "INC-1245 | SEV2 | search-indexer",
+    "content": "Incident INC-1245 severity SEV2 status Resolved on search-indexer. duration_minutes 60. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Traffic shift and pod autoscale increase.",
+    "timestamp": "2026-03-29T09:23:00Z",
+    "updated_at": "2026-03-29T10:23:00Z",
+    "owners": [
+      "platform"
+    ],
+    "tags": [
+      "SEV2",
+      "search-indexer",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1245",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1245",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 60
+    }
+  },
+  {
+    "doc_id": "incident:INC-1246:8811468b8d3d",
+    "source_type": "incident",
+    "source_id": "INC-1246",
+    "title": "INC-1246 | SEV1 | feature-store",
+    "content": "Incident INC-1246 severity SEV1 status Monitoring on feature-store. duration_minutes 76. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Connection pool exhaustion under burst traffic. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-17T09:30:00Z",
+    "updated_at": "2026-03-17T10:46:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV1",
+      "feature-store",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1246",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1246",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 76
+    }
+  },
+  {
+    "doc_id": "incident:INC-1247:cb239487e853",
+    "source_type": "incident",
+    "source_id": "INC-1247",
+    "title": "INC-1247 | SEV1 | search-indexer",
+    "content": "Incident INC-1247 severity SEV1 status Monitoring on search-indexer. duration_minutes 109. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: Hotfix patch and staged redeploy.",
+    "timestamp": "2026-03-10T19:14:00Z",
+    "updated_at": "2026-03-10T21:03:00Z",
+    "owners": [
+      "payments"
+    ],
+    "tags": [
+      "SEV1",
+      "search-indexer",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1247",
+      "search-indexer"
+    ],
+    "acl": {
+      "visibility": "restricted",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1247",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 109
+    }
+  },
+  {
+    "doc_id": "incident:INC-1248:ef3305c523f5",
+    "source_type": "incident",
+    "source_id": "INC-1248",
+    "title": "INC-1248 | SEV3 | feature-store",
+    "content": "Incident INC-1248 severity SEV3 status Resolved on feature-store. duration_minutes 99. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Cache invalidation storm after deploy. Mitigation: Rollback to previous stable build.",
+    "timestamp": "2026-03-23T07:10:00Z",
+    "updated_at": "2026-03-23T08:49:00Z",
+    "owners": [
+      "ml_infra"
+    ],
+    "tags": [
+      "SEV3",
+      "feature-store",
+      "Resolved"
+    ],
+    "entities": [
+      "INC-1248",
+      "feature-store"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1248",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 99
+    }
+  },
+  {
+    "doc_id": "incident:INC-1249:01777dfba0b6",
+    "source_type": "incident",
+    "source_id": "INC-1249",
+    "title": "INC-1249 | SEV3 | auth-gateway",
+    "content": "Incident INC-1249 severity SEV3 status Monitoring on auth-gateway. duration_minutes 74. Impact: Intermittent elevated error rate and latency regression affecting subset of users. Root cause: Credential rotation mismatch on worker nodes. Mitigation: WAF rule and retry budget tuning.",
+    "timestamp": "2026-03-27T20:15:00Z",
+    "updated_at": "2026-03-27T21:29:00Z",
+    "owners": [
+      "search"
+    ],
+    "tags": [
+      "SEV3",
+      "auth-gateway",
+      "Monitoring"
+    ],
+    "entities": [
+      "INC-1249",
+      "auth-gateway"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [],
+      "allowed_roles": []
+    },
+    "source_url": "https://wiki.techcorp.internal/postmortems/inc-1249",
+    "lineage": {
+      "ingestion_run_id": "e4d0dff5-747c-4bbf-90c5-e69692ad86fc",
+      "source_file": "synthetic_data/techcorp/incidents.json",
+      "parser_version": "v1.0"
+    },
+    "extra": {
+      "duration_minutes": 74
+    }
+  }
+]

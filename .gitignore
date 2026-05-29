@@ -1,0 +1,79 @@
+# ── Secrets & local env ────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.*.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ── Markdown: only root README.md goes to GitHub ─────────────────────────────
+*.md
+!/README.md
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Node / frontend ──────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── Terraform (state & local vars only; commit .terraform.lock.hcl) ───────────
+deploy/terraform/.terraform/
+deploy/terraform/*.tfstate
+deploy/terraform/*.tfstate.*
+deploy/terraform/tfplan
+deploy/terraform/terraform.tfvars
+deploy/terraform/terraform.tfvars.json
+deploy/terraform/crash.log
+deploy/terraform/override.tf
+deploy/terraform/override.tf.json
+
+# Bundled Terraform binary (local download, not source)
+deploy/tools/
+
+# ── Docker / local data ──────────────────────────────────────────────────────
+.docker/
+
+# ── OS & editors ─────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# ── Cursor / agent (local only) ──────────────────────────────────────────────
+.cursor/
+agent-transcripts/
+
+# ── Logs & temp ──────────────────────────────────────────────────────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ── Optional: large generated artifacts (uncomment if repo size is an issue) ─
+# app/outputs/canonical_docs.json
+# app/outputs/upsert_docs.json
+# app/outputs/*.json

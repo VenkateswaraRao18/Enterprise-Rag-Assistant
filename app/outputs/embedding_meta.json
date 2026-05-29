@@ -1,0 +1,11 @@
+{
+  "indexed_at": "2026-05-28T17:22:46.770357+00:00",
+  "llm_provider": "gemini",
+  "model": "gemini-embedding-001",
+  "vector_size": 3072,
+  "doc_count": 610,
+  "qdrant_url": "http://localhost:6333",
+  "collection": "techcorp_docs",
+  "points_in_collection": 610,
+  "total_upserted": 610
+}

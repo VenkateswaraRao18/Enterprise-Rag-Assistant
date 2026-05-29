@@ -1,0 +1,19 @@
+{
+  "dataset": "techcorp-enterprise-knowledge-synthetic-v1",
+  "generated_at": "2026-05-28T02:44:15.092217Z",
+  "records": {
+    "teams": 5,
+    "users": 10,
+    "slack_channels": 6,
+    "slack_messages": 312,
+    "kb_documents": 8,
+    "jira_issues": 180,
+    "incidents": 50,
+    "oncall_roster_rows": 60
+  },
+  "notes": [
+    "Data is synthetic and safe for portfolio demos.",
+    "ACL fields are included for permission-aware retrieval testing.",
+    "Timestamps are realistic for recency-sensitive ranking experiments."
+  ]
+}

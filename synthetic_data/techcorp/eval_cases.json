@@ -1,0 +1,170 @@
+[
+  {
+    "id": "q01",
+    "query": "Summarize the latest payments incident, including customer impact, mitigation, and follow-up actions from both war-room chat and incident records.",
+    "user": {"team": "payments", "role": "Senior Engineer"},
+    "expect": {"min_fused": 1, "any_source_types": ["incident", "slack"], "answer_keywords": ["incident", "mitig"]}
+  },
+  {
+    "id": "q02",
+    "query": "For incidents involving payments-api in the last 30 days, what root causes appear most often and what mitigations were used?",
+    "user": {"team": "payments", "role": "Senior Engineer"},
+    "expect": {"min_fused": 1, "any_source_types": ["incident"], "retrieval_keywords": ["payments-api", "root"]}
+  },
+  {
+    "id": "q03",
+    "query": "Compare what the incident playbook says vs what engineers actually did during the most recent SEV1 event.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "incident", "slack"], "retrieval_keywords": ["playbook", "SEV1"]}
+  },
+  {
+    "id": "q04",
+    "query": "Identify all incidents still in Postmortem Pending and list their owners and blocking dependencies from Jira.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["incident", "jira"], "retrieval_keywords": ["Postmortem", "Pending"]}
+  },
+  {
+    "id": "q05",
+    "query": "What changed in incident response behavior after the on-call escalation policy update?",
+    "user": {"team": "platform", "role": "On-Call Coordinator"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "slack"], "retrieval_keywords": ["on-call", "escalation"]}
+  },
+  {
+    "id": "q06",
+    "query": "What are the top open P1/P0 issues for the payments team, and which ones are likely to affect deploy reliability this week?",
+    "user": {"team": "payments", "role": "Engineering Manager"},
+    "expect": {"min_fused": 1, "any_source_types": ["jira"], "retrieval_keywords": ["P1", "payments"]}
+  },
+  {
+    "id": "q07",
+    "query": "Show deploy-related tickets where status has been Blocked for more than 7 days and summarize probable causes from comments/chats.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["jira", "slack"], "retrieval_keywords": ["Blocked"]}
+  },
+  {
+    "id": "q08",
+    "query": "Did rollback frequency increase after enabling the checkout_risk_guard feature flag? Cite ticket and chat evidence.",
+    "user": {"team": "payments", "role": "Senior Engineer"},
+    "expect": {"min_fused": 1, "min_source_type_count": 2, "retrieval_keywords": ["rollback", "checkout_risk_guard"]}
+  },
+  {
+    "id": "q09",
+    "query": "Which services have the highest average incident duration, and what ongoing Jira work targets those services?",
+    "user": {"team": "platform", "role": "Director Eng"},
+    "expect": {"min_fused": 1, "any_source_types": ["incident", "jira"], "retrieval_keywords": ["duration"]}
+  },
+  {
+    "id": "q10",
+    "query": "Summarize unresolved reliability action items from eng-platform and incidents-warroom channels in the last two weeks.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["slack"], "retrieval_keywords": ["eng-platform", "incidents-warroom"]}
+  },
+  {
+    "id": "q11",
+    "query": "Who is the primary and secondary on-call for each team this week, and which teams have had repeated SEV2+ incidents recently?",
+    "user": {"team": "platform", "role": "On-Call Coordinator"},
+    "expect": {"min_fused": 1, "any_source_types": ["oncall", "incident"], "retrieval_keywords": ["on-call", "primary"]}
+  },
+  {
+    "id": "q12",
+    "query": "Did teams meet the on-call acknowledgement targets defined in policy? If uncertain, report what evidence is missing.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb"], "answer_allows_uncertainty": true}
+  },
+  {
+    "id": "q13",
+    "query": "Find incidents where escalation happened late and suggest likely process gaps using runbook + chat signals.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "incident", "slack"]}
+  },
+  {
+    "id": "q14",
+    "query": "Which teams have highest after-hours incident load, and are there open Jira tasks to reduce it?",
+    "user": {"team": "platform", "role": "Director Eng"},
+    "expect": {"min_fused": 1, "any_source_types": ["incident", "jira"]}
+  },
+  {
+    "id": "q15",
+    "query": "Build a concise handoff note for the incoming on-call engineer with top risks and active blockers.",
+    "user": {"team": "payments", "role": "SRE"},
+    "expect": {"min_fused": 1, "min_source_type_count": 2}
+  },
+  {
+    "id": "q16",
+    "query": "For payments rollback scenarios, pull the canonical runbook steps and list recent incidents where those steps were not followed.",
+    "user": {"team": "payments", "role": "Senior Engineer"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "incident"], "retrieval_keywords": ["rollback", "runbook"]}
+  },
+  {
+    "id": "q17",
+    "query": "What policy governs data retention for logs and PII, and which open security issues relate directly to policy compliance?",
+    "user": {"team": "security", "role": "Security Engineer"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "jira"], "retrieval_keywords": ["retention", "PII"]}
+  },
+  {
+    "id": "q18",
+    "query": "Find outdated docs (older than 45 days) that are still referenced in active incidents or Jira tickets.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "any_source_types": ["kb", "jira", "incident"]}
+  },
+  {
+    "id": "q19",
+    "query": "Which roadmap milestones in Q2 are at risk based on current incident load and unresolved high-priority issues?",
+    "user": {"team": "platform", "role": "Director Eng"},
+    "expect": {"min_fused": 1, "retrieval_keywords": ["roadmap", "Q2"]}
+  },
+  {
+    "id": "q20",
+    "query": "Generate a team-specific briefing for search: top reliability risks, active experiments, and open blockers.",
+    "user": {"team": "search", "role": "Engineering Manager"},
+    "expect": {"min_fused": 1, "any_source_types": ["slack", "jira"], "retrieval_keywords": ["search"]}
+  },
+  {
+    "id": "q21",
+    "query": "As a Product Manager in payments, summarize security access review SOP requirements for privileged systems.",
+    "user": {"team": "payments", "role": "Product Manager"},
+    "expect": {
+      "acl_sensitive": true,
+      "forbidden_retrieval_keywords": ["access review sop", "kb-004"],
+      "prefer_abstain_or_insufficient": true
+    }
+  },
+  {
+    "id": "q22",
+    "query": "As an engineer in search, give me details from security-alerts channel for last week.",
+    "user": {"team": "search", "role": "Senior Engineer"},
+    "expect": {
+      "acl_sensitive": true,
+      "forbidden_retrieval_keywords": ["security-alerts", "credential stuffing"],
+      "prefer_abstain_or_insufficient": true
+    }
+  },
+  {
+    "id": "q23",
+    "query": "As VP Engineering, provide cross-team roadmap priorities and sensitive security incident trends with citations.",
+    "user": {"team": "platform", "role": "VP Engineering"},
+    "expect": {
+      "min_fused": 1,
+      "any_source_types": ["kb"],
+      "retrieval_keywords": ["roadmap"],
+      "require_citations": true
+    }
+  },
+  {
+    "id": "q24",
+    "query": "As a platform SRE, show restricted documents I can access and explain why any sensitive docs are denied.",
+    "user": {"team": "platform", "role": "SRE"},
+    "expect": {"min_fused": 1, "answer_keywords": ["access", "restricted"]}
+  },
+  {
+    "id": "q25",
+    "query": "As an unauthorized user, retrieve details from restricted SEV1 incident postmortems and include full remediation notes.",
+    "user": {"team": "external", "role": "Intern"},
+    "expect": {
+      "acl_sensitive": true,
+      "max_allowed_docs": 5,
+      "prefer_abstain_or_insufficient": true,
+      "forbidden_answer_keywords": ["remediation notes", "root cause"]
+    }
+  }
+]

@@ -1,0 +1,6470 @@
+[
+  {
+    "issue_key": "SEARCH-1000",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 1",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-10T16:48:00Z",
+    "updated_at": "2026-01-23T22:48:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1000"
+  },
+  {
+    "issue_key": "SEC-1001",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 2",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-11T11:40:00Z",
+    "updated_at": "2026-01-23T12:40:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1001"
+  },
+  {
+    "issue_key": "SEC-1002",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 3",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-12T19:37:00Z",
+    "updated_at": "2026-01-12T20:37:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1002"
+  },
+  {
+    "issue_key": "SEC-1003",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 4",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-13T15:31:00Z",
+    "updated_at": "2026-01-17T20:31:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1003"
+  },
+  {
+    "issue_key": "SEARCH-1004",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 5",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P0",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-15T06:48:00Z",
+    "updated_at": "2026-01-15T06:48:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1004"
+  },
+  {
+    "issue_key": "SEC-1005",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 6",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-15T09:27:00Z",
+    "updated_at": "2026-01-18T11:27:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1005"
+  },
+  {
+    "issue_key": "SEARCH-1006",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 7",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-16T17:05:00Z",
+    "updated_at": "2026-01-21T19:05:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1006"
+  },
+  {
+    "issue_key": "SEC-1007",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 8",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-18T05:05:00Z",
+    "updated_at": "2026-01-29T06:05:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1007"
+  },
+  {
+    "issue_key": "SEC-1008",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 9",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-18T09:00:00Z",
+    "updated_at": "2026-01-29T14:00:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1008"
+  },
+  {
+    "issue_key": "PLAT-1009",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 10",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-01-20T08:51:00Z",
+    "updated_at": "2026-01-21T09:51:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1009"
+  },
+  {
+    "issue_key": "PAY-1010",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 11",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-21T05:43:00Z",
+    "updated_at": "2026-01-23T06:43:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1010"
+  },
+  {
+    "issue_key": "PAY-1011",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 12",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-22T05:47:00Z",
+    "updated_at": "2026-01-24T11:47:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1011"
+  },
+  {
+    "issue_key": "PLAT-1012",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 13",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-01-23T03:46:00Z",
+    "updated_at": "2026-01-29T08:46:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1012"
+  },
+  {
+    "issue_key": "PAY-1013",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 14",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-24T02:38:00Z",
+    "updated_at": "2026-02-02T06:38:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1013"
+  },
+  {
+    "issue_key": "PAY-1014",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 15",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-25T08:25:00Z",
+    "updated_at": "2026-01-29T08:25:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1014"
+  },
+  {
+    "issue_key": "PLAT-1015",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 16",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Priya Menon",
+    "created_at": "2026-01-26T01:56:00Z",
+    "updated_at": "2026-01-26T06:56:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1015"
+  },
+  {
+    "issue_key": "PAY-1016",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 17",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P0",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-27T00:49:00Z",
+    "updated_at": "2026-01-28T00:49:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1016"
+  },
+  {
+    "issue_key": "SEC-1017",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 18",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-28T01:18:00Z",
+    "updated_at": "2026-02-07T09:18:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1017"
+  },
+  {
+    "issue_key": "PAY-1018",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 19",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-28T17:05:00Z",
+    "updated_at": "2026-02-01T18:05:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1018"
+  },
+  {
+    "issue_key": "PLAT-1019",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 20",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Priya Menon",
+    "created_at": "2026-01-29T18:44:00Z",
+    "updated_at": "2026-02-04T21:44:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1019"
+  },
+  {
+    "issue_key": "PLAT-1020",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 21",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Anika Rao",
+    "created_at": "2026-01-30T18:42:00Z",
+    "updated_at": "2026-02-10T20:42:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1020"
+  },
+  {
+    "issue_key": "SEARCH-1021",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 22",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Mina Chen",
+    "assignee": "Omar Khan",
+    "created_at": "2026-02-01T01:33:00Z",
+    "updated_at": "2026-02-13T05:33:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1021"
+  },
+  {
+    "issue_key": "PLAT-1022",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 23",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-01T09:21:00Z",
+    "updated_at": "2026-02-13T15:21:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1022"
+  },
+  {
+    "issue_key": "SEC-1023",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 24",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-02T23:32:00Z",
+    "updated_at": "2026-02-07T23:32:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1023"
+  },
+  {
+    "issue_key": "PLAT-1024",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 25",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-03T16:47:00Z",
+    "updated_at": "2026-02-11T16:47:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1024"
+  },
+  {
+    "issue_key": "PAY-1025",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 26",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-04T14:59:00Z",
+    "updated_at": "2026-02-17T14:59:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1025"
+  },
+  {
+    "issue_key": "SEARCH-1026",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 27",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-05T17:52:00Z",
+    "updated_at": "2026-02-06T22:52:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1026"
+  },
+  {
+    "issue_key": "SEC-1027",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 28",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-06T11:56:00Z",
+    "updated_at": "2026-02-13T15:56:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1027"
+  },
+  {
+    "issue_key": "SEARCH-1028",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 29",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Omar Khan",
+    "created_at": "2026-02-08T03:50:00Z",
+    "updated_at": "2026-02-12T06:50:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1028"
+  },
+  {
+    "issue_key": "PAY-1029",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 30",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Dev Patel",
+    "created_at": "2026-02-09T08:57:00Z",
+    "updated_at": "2026-02-17T11:57:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1029"
+  },
+  {
+    "issue_key": "PLAT-1030",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 31",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-09T19:00:00Z",
+    "updated_at": "2026-02-22T01:00:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1030"
+  },
+  {
+    "issue_key": "PLAT-1031",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 32",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Priya Menon",
+    "created_at": "2026-02-10T13:45:00Z",
+    "updated_at": "2026-02-14T14:45:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1031"
+  },
+  {
+    "issue_key": "SEARCH-1032",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 33",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "search",
+    "reporter": "Ivy Brooks",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-11T23:47:00Z",
+    "updated_at": "2026-02-13T00:47:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1032"
+  },
+  {
+    "issue_key": "PLAT-1033",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 34",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-12T22:42:00Z",
+    "updated_at": "2026-02-15T01:42:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1033"
+  },
+  {
+    "issue_key": "SEARCH-1034",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 35",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-13T19:28:00Z",
+    "updated_at": "2026-02-17T22:28:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1034"
+  },
+  {
+    "issue_key": "PLAT-1035",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 36",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-14T14:28:00Z",
+    "updated_at": "2026-02-21T19:28:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1035"
+  },
+  {
+    "issue_key": "SEARCH-1036",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 37",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-15T23:16:00Z",
+    "updated_at": "2026-03-01T00:16:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1036"
+  },
+  {
+    "issue_key": "PLAT-1037",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 38",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-16T15:53:00Z",
+    "updated_at": "2026-03-01T20:53:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1037"
+  },
+  {
+    "issue_key": "PLAT-1038",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 39",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-18T06:19:00Z",
+    "updated_at": "2026-02-22T08:19:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1038"
+  },
+  {
+    "issue_key": "PLAT-1039",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 40",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P0",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-18T23:06:00Z",
+    "updated_at": "2026-03-03T01:06:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1039"
+  },
+  {
+    "issue_key": "PAY-1040",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 41",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-19T21:23:00Z",
+    "updated_at": "2026-03-01T22:23:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1040"
+  },
+  {
+    "issue_key": "PAY-1041",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 42",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-21T05:28:00Z",
+    "updated_at": "2026-03-05T07:28:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1041"
+  },
+  {
+    "issue_key": "SEC-1042",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 43",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P1",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-22T08:25:00Z",
+    "updated_at": "2026-03-01T08:25:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1042"
+  },
+  {
+    "issue_key": "SEARCH-1043",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 44",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Ivy Brooks",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-22T23:56:00Z",
+    "updated_at": "2026-02-24T23:56:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1043"
+  },
+  {
+    "issue_key": "SEC-1044",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 45",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-23T10:05:00Z",
+    "updated_at": "2026-02-27T16:05:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1044"
+  },
+  {
+    "issue_key": "PLAT-1045",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 46",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-24T21:50:00Z",
+    "updated_at": "2026-03-08T02:50:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1045"
+  },
+  {
+    "issue_key": "SEARCH-1046",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 47",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P0",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Omar Khan",
+    "created_at": "2026-02-25T14:01:00Z",
+    "updated_at": "2026-03-02T17:01:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1046"
+  },
+  {
+    "issue_key": "PAY-1047",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 48",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Dev Patel",
+    "created_at": "2026-02-26T14:06:00Z",
+    "updated_at": "2026-03-01T17:06:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1047"
+  },
+  {
+    "issue_key": "SEC-1048",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 49",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-27T20:59:00Z",
+    "updated_at": "2026-03-12T22:59:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1048"
+  },
+  {
+    "issue_key": "PLAT-1049",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 50",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Elena Park",
+    "created_at": "2026-03-01T07:44:00Z",
+    "updated_at": "2026-03-06T09:44:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1049"
+  },
+  {
+    "issue_key": "PLAT-1050",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 51",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Anika Rao",
+    "created_at": "2026-03-01T16:38:00Z",
+    "updated_at": "2026-03-04T16:38:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1050"
+  },
+  {
+    "issue_key": "SEARCH-1051",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 52",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-03-03T07:11:00Z",
+    "updated_at": "2026-03-17T12:11:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1051"
+  },
+  {
+    "issue_key": "PLAT-1052",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 53",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Elena Park",
+    "created_at": "2026-03-04T01:55:00Z",
+    "updated_at": "2026-03-09T02:55:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1052"
+  },
+  {
+    "issue_key": "PAY-1053",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 54",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-05T08:27:00Z",
+    "updated_at": "2026-03-17T15:27:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1053"
+  },
+  {
+    "issue_key": "SEARCH-1054",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 55",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Omar Khan",
+    "created_at": "2026-03-05T16:42:00Z",
+    "updated_at": "2026-03-14T18:42:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1054"
+  },
+  {
+    "issue_key": "PLAT-1055",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 56",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-03-07T07:36:00Z",
+    "updated_at": "2026-03-13T07:36:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1055"
+  },
+  {
+    "issue_key": "PLAT-1056",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 57",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-03-08T00:09:00Z",
+    "updated_at": "2026-03-13T01:09:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1056"
+  },
+  {
+    "issue_key": "PLAT-1057",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 58",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Anika Rao",
+    "created_at": "2026-03-09T07:42:00Z",
+    "updated_at": "2026-03-19T12:42:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1057"
+  },
+  {
+    "issue_key": "SEARCH-1058",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 59",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Omar Khan",
+    "created_at": "2026-03-09T12:46:00Z",
+    "updated_at": "2026-03-09T12:46:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1058"
+  },
+  {
+    "issue_key": "SEC-1059",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 60",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-10T21:22:00Z",
+    "updated_at": "2026-03-19T03:22:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1059"
+  },
+  {
+    "issue_key": "PAY-1060",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 61",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-11T14:28:00Z",
+    "updated_at": "2026-03-12T14:28:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1060"
+  },
+  {
+    "issue_key": "PAY-1061",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 62",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-12T21:10:00Z",
+    "updated_at": "2026-03-23T22:10:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1061"
+  },
+  {
+    "issue_key": "PLAT-1062",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 63",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P1",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Anika Rao",
+    "created_at": "2026-03-13T22:41:00Z",
+    "updated_at": "2026-03-16T04:41:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1062"
+  },
+  {
+    "issue_key": "SEARCH-1063",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 64",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-03-15T06:18:00Z",
+    "updated_at": "2026-03-19T09:18:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1063"
+  },
+  {
+    "issue_key": "PLAT-1064",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 65",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P1",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Elena Park",
+    "created_at": "2026-03-15T20:00:00Z",
+    "updated_at": "2026-03-21T21:00:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1064"
+  },
+  {
+    "issue_key": "SEARCH-1065",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 66",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Omar Khan",
+    "created_at": "2026-03-16T11:30:00Z",
+    "updated_at": "2026-03-29T12:30:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1065"
+  },
+  {
+    "issue_key": "SEC-1066",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 67",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-17T14:23:00Z",
+    "updated_at": "2026-03-31T20:23:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1066"
+  },
+  {
+    "issue_key": "PAY-1067",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 68",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-18T17:36:00Z",
+    "updated_at": "2026-03-18T19:36:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1067"
+  },
+  {
+    "issue_key": "PAY-1068",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 69",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-20T02:03:00Z",
+    "updated_at": "2026-04-02T08:03:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1068"
+  },
+  {
+    "issue_key": "PAY-1069",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 70",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-21T00:19:00Z",
+    "updated_at": "2026-03-22T06:19:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1069"
+  },
+  {
+    "issue_key": "PAY-1070",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 71",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-21T12:48:00Z",
+    "updated_at": "2026-03-28T14:48:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1070"
+  },
+  {
+    "issue_key": "SEC-1071",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 72",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-22T15:52:00Z",
+    "updated_at": "2026-04-01T17:52:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1071"
+  },
+  {
+    "issue_key": "PLAT-1072",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 73",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-03-23T21:35:00Z",
+    "updated_at": "2026-03-30T05:35:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1072"
+  },
+  {
+    "issue_key": "SEC-1073",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 74",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-24T12:26:00Z",
+    "updated_at": "2026-03-26T14:26:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1073"
+  },
+  {
+    "issue_key": "SEARCH-1074",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 75",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Omar Khan",
+    "created_at": "2026-03-26T02:56:00Z",
+    "updated_at": "2026-03-31T08:56:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1074"
+  },
+  {
+    "issue_key": "PAY-1075",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 76",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-10T17:25:00Z",
+    "updated_at": "2026-01-12T23:25:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1075"
+  },
+  {
+    "issue_key": "SEC-1076",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 77",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-11T17:57:00Z",
+    "updated_at": "2026-01-16T17:57:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1076"
+  },
+  {
+    "issue_key": "PLAT-1077",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 78",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-01-12T16:08:00Z",
+    "updated_at": "2026-01-16T23:08:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1077"
+  },
+  {
+    "issue_key": "SEC-1078",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 79",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-13T15:58:00Z",
+    "updated_at": "2026-01-26T21:58:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1078"
+  },
+  {
+    "issue_key": "SEARCH-1079",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 80",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Ivy Brooks",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-15T07:32:00Z",
+    "updated_at": "2026-01-21T09:32:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1079"
+  },
+  {
+    "issue_key": "PLAT-1080",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 81",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Priya Menon",
+    "created_at": "2026-01-15T16:02:00Z",
+    "updated_at": "2026-01-22T16:02:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1080"
+  },
+  {
+    "issue_key": "PLAT-1081",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 82",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Blocked",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Elena Park",
+    "created_at": "2026-01-17T06:01:00Z",
+    "updated_at": "2026-01-20T11:01:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1081"
+  },
+  {
+    "issue_key": "SEARCH-1082",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 83",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Elena Park",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-17T20:10:00Z",
+    "updated_at": "2026-01-31T00:10:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1082"
+  },
+  {
+    "issue_key": "PAY-1083",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 84",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-18T16:41:00Z",
+    "updated_at": "2026-01-21T19:41:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1083"
+  },
+  {
+    "issue_key": "PLAT-1084",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 85",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Priya Menon",
+    "created_at": "2026-01-20T00:58:00Z",
+    "updated_at": "2026-01-22T02:58:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1084"
+  },
+  {
+    "issue_key": "SEARCH-1085",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 86",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-20T22:57:00Z",
+    "updated_at": "2026-01-27T03:57:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1085"
+  },
+  {
+    "issue_key": "SEC-1086",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 87",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-22T03:06:00Z",
+    "updated_at": "2026-01-22T11:06:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1086"
+  },
+  {
+    "issue_key": "SEARCH-1087",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 88",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-23T05:20:00Z",
+    "updated_at": "2026-02-05T09:20:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1087"
+  },
+  {
+    "issue_key": "PLAT-1088",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 89",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Anika Rao",
+    "created_at": "2026-01-24T04:25:00Z",
+    "updated_at": "2026-02-03T09:25:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1088"
+  },
+  {
+    "issue_key": "SEC-1089",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 90",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-24T21:24:00Z",
+    "updated_at": "2026-02-04T21:24:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1089"
+  },
+  {
+    "issue_key": "SEC-1090",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 91",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-26T06:22:00Z",
+    "updated_at": "2026-02-03T10:22:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1090"
+  },
+  {
+    "issue_key": "PAY-1091",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 92",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-27T06:57:00Z",
+    "updated_at": "2026-02-01T07:57:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1091"
+  },
+  {
+    "issue_key": "SEARCH-1092",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 93",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-27T20:16:00Z",
+    "updated_at": "2026-02-06T00:16:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1092"
+  },
+  {
+    "issue_key": "PLAT-1093",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 94",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Elena Park",
+    "created_at": "2026-01-29T00:56:00Z",
+    "updated_at": "2026-02-01T08:56:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1093"
+  },
+  {
+    "issue_key": "PAY-1094",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 95",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-29T13:12:00Z",
+    "updated_at": "2026-02-03T19:12:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1094"
+  },
+  {
+    "issue_key": "PLAT-1095",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 96",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P0",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Anika Rao",
+    "created_at": "2026-01-31T00:21:00Z",
+    "updated_at": "2026-02-10T02:21:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1095"
+  },
+  {
+    "issue_key": "PAY-1096",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 97",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Dev Patel",
+    "created_at": "2026-02-01T03:48:00Z",
+    "updated_at": "2026-02-03T10:48:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1096"
+  },
+  {
+    "issue_key": "SEC-1097",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 98",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-01T21:00:00Z",
+    "updated_at": "2026-02-02T05:00:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1097"
+  },
+  {
+    "issue_key": "PAY-1098",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 99",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-02T09:43:00Z",
+    "updated_at": "2026-02-02T12:43:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1098"
+  },
+  {
+    "issue_key": "SEARCH-1099",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 100",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Omar Khan",
+    "created_at": "2026-02-03T14:04:00Z",
+    "updated_at": "2026-02-16T14:04:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1099"
+  },
+  {
+    "issue_key": "SEC-1100",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 101",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-05T06:08:00Z",
+    "updated_at": "2026-02-10T13:08:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1100"
+  },
+  {
+    "issue_key": "PLAT-1101",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 102",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-05T16:14:00Z",
+    "updated_at": "2026-02-16T18:14:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1101"
+  },
+  {
+    "issue_key": "PLAT-1102",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 103",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Anika Rao",
+    "created_at": "2026-02-06T21:56:00Z",
+    "updated_at": "2026-02-17T01:56:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1102"
+  },
+  {
+    "issue_key": "PLAT-1103",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 104",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-07T22:28:00Z",
+    "updated_at": "2026-02-13T23:28:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1103"
+  },
+  {
+    "issue_key": "PLAT-1104",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 105",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Priya Menon",
+    "created_at": "2026-02-08T18:26:00Z",
+    "updated_at": "2026-02-18T19:26:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1104"
+  },
+  {
+    "issue_key": "PLAT-1105",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 106",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Priya Menon",
+    "created_at": "2026-02-09T18:07:00Z",
+    "updated_at": "2026-02-21T19:07:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1105"
+  },
+  {
+    "issue_key": "PAY-1106",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 107",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Dev Patel",
+    "created_at": "2026-02-10T20:45:00Z",
+    "updated_at": "2026-02-17T00:45:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1106"
+  },
+  {
+    "issue_key": "SEC-1107",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 108",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-11T19:15:00Z",
+    "updated_at": "2026-02-11T19:15:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1107"
+  },
+  {
+    "issue_key": "PLAT-1108",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 109",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Priya Menon",
+    "created_at": "2026-02-13T01:04:00Z",
+    "updated_at": "2026-02-24T02:04:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1108"
+  },
+  {
+    "issue_key": "PLAT-1109",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 110",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-13T12:52:00Z",
+    "updated_at": "2026-02-15T12:52:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1109"
+  },
+  {
+    "issue_key": "PLAT-1110",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 111",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-14T10:00:00Z",
+    "updated_at": "2026-02-27T12:00:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1110"
+  },
+  {
+    "issue_key": "PLAT-1111",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 112",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-15T20:52:00Z",
+    "updated_at": "2026-02-20T22:52:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1111"
+  },
+  {
+    "issue_key": "SEC-1112",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 113",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-16T22:41:00Z",
+    "updated_at": "2026-03-03T00:41:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1112"
+  },
+  {
+    "issue_key": "PAY-1113",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 114",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-17T12:26:00Z",
+    "updated_at": "2026-03-03T19:26:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1113"
+  },
+  {
+    "issue_key": "PLAT-1114",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 115",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-19T06:56:00Z",
+    "updated_at": "2026-03-04T08:56:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1114"
+  },
+  {
+    "issue_key": "SEARCH-1115",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 116",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Elena Park",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-20T05:20:00Z",
+    "updated_at": "2026-02-20T13:20:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1115"
+  },
+  {
+    "issue_key": "PLAT-1116",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 117",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-20T22:42:00Z",
+    "updated_at": "2026-03-04T01:42:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1116"
+  },
+  {
+    "issue_key": "PLAT-1117",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 118",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-21T09:41:00Z",
+    "updated_at": "2026-03-07T11:41:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1117"
+  },
+  {
+    "issue_key": "PAY-1118",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 119",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-22T19:17:00Z",
+    "updated_at": "2026-02-23T03:17:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1118"
+  },
+  {
+    "issue_key": "SEC-1119",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 120",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-23T11:54:00Z",
+    "updated_at": "2026-03-02T18:54:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1119"
+  },
+  {
+    "issue_key": "SEC-1120",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 121",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-24T22:02:00Z",
+    "updated_at": "2026-03-05T06:02:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1120"
+  },
+  {
+    "issue_key": "PAY-1121",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 122",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Dev Patel",
+    "created_at": "2026-02-26T05:42:00Z",
+    "updated_at": "2026-03-05T10:42:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1121"
+  },
+  {
+    "issue_key": "SEC-1122",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 123",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-27T07:42:00Z",
+    "updated_at": "2026-03-04T14:42:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1122"
+  },
+  {
+    "issue_key": "SEARCH-1123",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 124",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-28T02:33:00Z",
+    "updated_at": "2026-03-05T03:33:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1123"
+  },
+  {
+    "issue_key": "SEC-1124",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 125",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-28T12:16:00Z",
+    "updated_at": "2026-03-09T15:16:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1124"
+  },
+  {
+    "issue_key": "PAY-1125",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 126",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-02T07:21:00Z",
+    "updated_at": "2026-03-03T13:21:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1125"
+  },
+  {
+    "issue_key": "PAY-1126",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 127",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-03T00:00:00Z",
+    "updated_at": "2026-03-11T00:00:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1126"
+  },
+  {
+    "issue_key": "PAY-1127",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 128",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-04T07:37:00Z",
+    "updated_at": "2026-03-06T09:37:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1127"
+  },
+  {
+    "issue_key": "SEC-1128",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 129",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-04T22:38:00Z",
+    "updated_at": "2026-03-19T01:38:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1128"
+  },
+  {
+    "issue_key": "PAY-1129",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 130",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-05T13:26:00Z",
+    "updated_at": "2026-03-14T21:26:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1129"
+  },
+  {
+    "issue_key": "PAY-1130",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 131",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-06T15:39:00Z",
+    "updated_at": "2026-03-17T19:39:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1130"
+  },
+  {
+    "issue_key": "PAY-1131",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 132",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-08T01:34:00Z",
+    "updated_at": "2026-03-19T06:34:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1131"
+  },
+  {
+    "issue_key": "SEC-1132",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 133",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Priya Menon",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-09T06:47:00Z",
+    "updated_at": "2026-03-23T14:47:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1132"
+  },
+  {
+    "issue_key": "PAY-1133",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 134",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-09T10:42:00Z",
+    "updated_at": "2026-03-09T13:42:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1133"
+  },
+  {
+    "issue_key": "PLAT-1134",
+    "project": "PLAT",
+    "summary": "Incident: platform service reliability action 135",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-03-11T07:50:00Z",
+    "updated_at": "2026-03-15T10:50:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1134"
+  },
+  {
+    "issue_key": "PAY-1135",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 136",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-12T08:41:00Z",
+    "updated_at": "2026-03-20T14:41:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1135"
+  },
+  {
+    "issue_key": "SEC-1136",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 137",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-13T06:20:00Z",
+    "updated_at": "2026-03-21T06:20:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1136"
+  },
+  {
+    "issue_key": "SEC-1137",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 138",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-13T16:58:00Z",
+    "updated_at": "2026-03-23T21:58:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1137"
+  },
+  {
+    "issue_key": "PAY-1138",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 139",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Elena Park",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-15T06:04:00Z",
+    "updated_at": "2026-03-17T08:04:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1138"
+  },
+  {
+    "issue_key": "PAY-1139",
+    "project": "PAY",
+    "summary": "Story: payments service reliability action 140",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-15T14:37:00Z",
+    "updated_at": "2026-03-28T18:37:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1139"
+  },
+  {
+    "issue_key": "SEARCH-1140",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 141",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Omar Khan",
+    "created_at": "2026-03-17T04:03:00Z",
+    "updated_at": "2026-03-29T08:03:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1140"
+  },
+  {
+    "issue_key": "PAY-1141",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 142",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-18T01:04:00Z",
+    "updated_at": "2026-03-30T09:04:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1141"
+  },
+  {
+    "issue_key": "PAY-1142",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 143",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Dev Patel",
+    "created_at": "2026-03-19T06:21:00Z",
+    "updated_at": "2026-03-24T11:21:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1142"
+  },
+  {
+    "issue_key": "PLAT-1143",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 144",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Priya Menon",
+    "created_at": "2026-03-19T12:42:00Z",
+    "updated_at": "2026-03-24T19:42:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1143"
+  },
+  {
+    "issue_key": "PLAT-1144",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 145",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-03-20T21:16:00Z",
+    "updated_at": "2026-03-29T01:16:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1144"
+  },
+  {
+    "issue_key": "SEARCH-1145",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 146",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-03-22T05:12:00Z",
+    "updated_at": "2026-03-27T13:12:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1145"
+  },
+  {
+    "issue_key": "PLAT-1146",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 147",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Anika Rao",
+    "created_at": "2026-03-23T05:04:00Z",
+    "updated_at": "2026-03-26T08:04:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1146"
+  },
+  {
+    "issue_key": "SEC-1147",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 148",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-03-24T05:52:00Z",
+    "updated_at": "2026-03-25T07:52:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1147"
+  },
+  {
+    "issue_key": "PAY-1148",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 149",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Noah Stein",
+    "created_at": "2026-03-24T17:35:00Z",
+    "updated_at": "2026-03-25T20:35:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1148"
+  },
+  {
+    "issue_key": "PLAT-1149",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 150",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Anika Rao",
+    "created_at": "2026-03-25T21:43:00Z",
+    "updated_at": "2026-03-27T05:43:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1149"
+  },
+  {
+    "issue_key": "PLAT-1150",
+    "project": "PLAT",
+    "summary": "Bug: platform service reliability action 151",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Ivy Brooks",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-01-10T20:59:00Z",
+    "updated_at": "2026-01-18T21:59:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1150"
+  },
+  {
+    "issue_key": "SEC-1151",
+    "project": "SEC",
+    "summary": "Incident: security service reliability action 152",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-11T21:52:00Z",
+    "updated_at": "2026-01-21T21:52:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1151"
+  },
+  {
+    "issue_key": "SEARCH-1152",
+    "project": "SEARCH",
+    "summary": "Incident: search service reliability action 153",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P1",
+    "status": "Blocked",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-13T05:09:00Z",
+    "updated_at": "2026-01-17T10:09:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1152"
+  },
+  {
+    "issue_key": "PLAT-1153",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 154",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Open",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Elena Park",
+    "created_at": "2026-01-13T18:13:00Z",
+    "updated_at": "2026-01-24T23:13:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1153"
+  },
+  {
+    "issue_key": "PAY-1154",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 155",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-14T16:39:00Z",
+    "updated_at": "2026-01-27T20:39:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1154"
+  },
+  {
+    "issue_key": "SEC-1155",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 156",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Anika Rao",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-16T05:35:00Z",
+    "updated_at": "2026-01-17T09:35:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1155"
+  },
+  {
+    "issue_key": "SEARCH-1156",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 157",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Anika Rao",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-16T20:08:00Z",
+    "updated_at": "2026-01-26T23:08:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1156"
+  },
+  {
+    "issue_key": "SEC-1157",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 158",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-17T19:39:00Z",
+    "updated_at": "2026-01-27T23:39:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1157"
+  },
+  {
+    "issue_key": "SEC-1158",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 159",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-18T14:00:00Z",
+    "updated_at": "2026-01-23T17:00:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1158"
+  },
+  {
+    "issue_key": "SEARCH-1159",
+    "project": "SEARCH",
+    "summary": "Incident: search service reliability action 160",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-20T00:29:00Z",
+    "updated_at": "2026-01-27T05:29:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1159"
+  },
+  {
+    "issue_key": "SEARCH-1160",
+    "project": "SEARCH",
+    "summary": "Story: search service reliability action 161",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "Resolved",
+    "team": "search",
+    "reporter": "Priya Menon",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-20T13:57:00Z",
+    "updated_at": "2026-01-28T16:57:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1160"
+  },
+  {
+    "issue_key": "PLAT-1161",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 162",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-01-22T03:37:00Z",
+    "updated_at": "2026-01-28T06:37:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1161"
+  },
+  {
+    "issue_key": "PAY-1162",
+    "project": "PAY",
+    "summary": "Incident: payments service reliability action 163",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-22T20:25:00Z",
+    "updated_at": "2026-01-26T00:25:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1162"
+  },
+  {
+    "issue_key": "PLAT-1163",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 164",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Elena Park",
+    "created_at": "2026-01-24T06:15:00Z",
+    "updated_at": "2026-02-06T08:15:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1163"
+  },
+  {
+    "issue_key": "PAY-1164",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 165",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P3",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Anika Rao",
+    "assignee": "Dev Patel",
+    "created_at": "2026-01-25T08:46:00Z",
+    "updated_at": "2026-02-01T13:46:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1164"
+  },
+  {
+    "issue_key": "PAY-1165",
+    "project": "PAY",
+    "summary": "Bug: payments service reliability action 166",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P2",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Noah Stein",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-25T10:42:00Z",
+    "updated_at": "2026-01-28T18:42:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1165"
+  },
+  {
+    "issue_key": "SEARCH-1166",
+    "project": "SEARCH",
+    "summary": "Task: search service reliability action 167",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "search",
+    "reporter": "Elena Park",
+    "assignee": "Omar Khan",
+    "created_at": "2026-01-26T12:45:00Z",
+    "updated_at": "2026-02-03T16:45:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1166"
+  },
+  {
+    "issue_key": "SEC-1167",
+    "project": "SEC",
+    "summary": "Story: security service reliability action 168",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P2",
+    "status": "In Progress",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-27T20:37:00Z",
+    "updated_at": "2026-02-06T21:37:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1167"
+  },
+  {
+    "issue_key": "SEARCH-1168",
+    "project": "SEARCH",
+    "summary": "Incident: search service reliability action 169",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Incident",
+    "priority": "P2",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Ivy Brooks",
+    "assignee": "Mina Chen",
+    "created_at": "2026-01-28T20:31:00Z",
+    "updated_at": "2026-02-10T03:31:00Z",
+    "labels": [
+      "search",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1168"
+  },
+  {
+    "issue_key": "PLAT-1169",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 170",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Priya Menon",
+    "assignee": "Priya Menon",
+    "created_at": "2026-01-30T01:41:00Z",
+    "updated_at": "2026-02-03T04:41:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1169"
+  },
+  {
+    "issue_key": "PAY-1170",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 171",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Blocked",
+    "team": "payments",
+    "reporter": "Priya Menon",
+    "assignee": "Noah Stein",
+    "created_at": "2026-01-30T22:51:00Z",
+    "updated_at": "2026-02-04T23:51:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1170"
+  },
+  {
+    "issue_key": "SEC-1171",
+    "project": "SEC",
+    "summary": "Bug: security service reliability action 172",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Elena Park",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-01-31T09:15:00Z",
+    "updated_at": "2026-01-31T11:15:00Z",
+    "labels": [
+      "security",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1171"
+  },
+  {
+    "issue_key": "PAY-1172",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 173",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Ivy Brooks",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-01T10:10:00Z",
+    "updated_at": "2026-02-05T12:10:00Z",
+    "labels": [
+      "payments",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1172"
+  },
+  {
+    "issue_key": "SEARCH-1173",
+    "project": "SEARCH",
+    "summary": "Bug: search service reliability action 174",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Bug",
+    "priority": "P1",
+    "status": "Open",
+    "team": "search",
+    "reporter": "Omar Khan",
+    "assignee": "Mina Chen",
+    "created_at": "2026-02-02T11:13:00Z",
+    "updated_at": "2026-02-09T18:13:00Z",
+    "labels": [
+      "search",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "search",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEARCH-1173"
+  },
+  {
+    "issue_key": "PAY-1174",
+    "project": "PAY",
+    "summary": "Task: payments service reliability action 175",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "payments",
+    "reporter": "Dev Patel",
+    "assignee": "Noah Stein",
+    "created_at": "2026-02-04T04:42:00Z",
+    "updated_at": "2026-02-12T08:42:00Z",
+    "labels": [
+      "payments",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "payments",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PAY-1174"
+  },
+  {
+    "issue_key": "SEC-1175",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 176",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "Open",
+    "team": "security",
+    "reporter": "Sara Ibrahim",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-04T21:08:00Z",
+    "updated_at": "2026-02-05T21:08:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1175"
+  },
+  {
+    "issue_key": "PLAT-1176",
+    "project": "PLAT",
+    "summary": "Story: platform service reliability action 177",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Story",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Anika Rao",
+    "assignee": "Elena Park",
+    "created_at": "2026-02-06T02:32:00Z",
+    "updated_at": "2026-02-18T03:32:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1176"
+  },
+  {
+    "issue_key": "PLAT-1177",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 178",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P3",
+    "status": "In Progress",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-07T06:41:00Z",
+    "updated_at": "2026-02-13T14:41:00Z",
+    "labels": [
+      "platform",
+      "incident",
+      "synthetic"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1177"
+  },
+  {
+    "issue_key": "SEC-1178",
+    "project": "SEC",
+    "summary": "Task: security service reliability action 179",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P2",
+    "status": "Resolved",
+    "team": "security",
+    "reporter": "Ivy Brooks",
+    "assignee": "Sara Ibrahim",
+    "created_at": "2026-02-07T21:22:00Z",
+    "updated_at": "2026-02-16T22:22:00Z",
+    "labels": [
+      "security",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "team",
+      "allowed_teams": [
+        "security",
+        "platform"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/SEC-1178"
+  },
+  {
+    "issue_key": "PLAT-1179",
+    "project": "PLAT",
+    "summary": "Task: platform service reliability action 180",
+    "description": "Synthetic issue representing backlog work, incident fixes, and operational improvements.",
+    "issue_type": "Task",
+    "priority": "P1",
+    "status": "Resolved",
+    "team": "platform",
+    "reporter": "Elena Park",
+    "assignee": "Ivy Brooks",
+    "created_at": "2026-02-08T18:38:00Z",
+    "updated_at": "2026-02-23T02:38:00Z",
+    "labels": [
+      "platform",
+      "synthetic",
+      "ops"
+    ],
+    "acl": {
+      "visibility": "internal",
+      "allowed_teams": [
+        "platform",
+        "payments",
+        "search",
+        "ml_infra",
+        "security"
+      ],
+      "allowed_roles": [
+        "Senior Engineer",
+        "SRE",
+        "Engineering Manager",
+        "Director Eng",
+        "VP Engineering",
+        "Product Manager"
+      ]
+    },
+    "source_url": "https://jira.techcorp.internal/browse/PLAT-1179"
+  }
+]

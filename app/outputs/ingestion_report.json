@@ -1,0 +1,19 @@
+{
+  "read": {
+    "incident": 50,
+    "jira": 180,
+    "kb": 8,
+    "slack": 312,
+    "oncall": 60
+  },
+  "upserted": {
+    "incident": 50
+  },
+  "skipped": {
+    "jira": 180,
+    "kb": 8,
+    "slack": 312,
+    "oncall": 60
+  },
+  "failed": {}
+}

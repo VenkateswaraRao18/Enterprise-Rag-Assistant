@@ -1,0 +1,22 @@
+[
+  {
+    "team_id": "platform",
+    "name": "Platform Engineering"
+  },
+  {
+    "team_id": "payments",
+    "name": "Payments"
+  },
+  {
+    "team_id": "search",
+    "name": "Search"
+  },
+  {
+    "team_id": "ml_infra",
+    "name": "ML Infrastructure"
+  },
+  {
+    "team_id": "security",
+    "name": "Security"
+  }
+]

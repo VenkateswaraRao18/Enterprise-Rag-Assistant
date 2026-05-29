@@ -1,0 +1,82 @@
+[
+  {
+    "user_id": "u001",
+    "name": "Anika Rao",
+    "email": "anika@techcorp.internal",
+    "role": "SRE",
+    "team": "platform",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u002",
+    "name": "Dev Patel",
+    "email": "dev@techcorp.internal",
+    "role": "Senior Engineer",
+    "team": "payments",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u003",
+    "name": "Mina Chen",
+    "email": "mina@techcorp.internal",
+    "role": "Engineering Manager",
+    "team": "search",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u004",
+    "name": "Leo Kim",
+    "email": "leo@techcorp.internal",
+    "role": "Staff Engineer",
+    "team": "ml_infra",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u005",
+    "name": "Sara Ibrahim",
+    "email": "sara@techcorp.internal",
+    "role": "Security Engineer",
+    "team": "security",
+    "clearance": "restricted"
+  },
+  {
+    "user_id": "u006",
+    "name": "Noah Stein",
+    "email": "noah@techcorp.internal",
+    "role": "Product Manager",
+    "team": "payments",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u007",
+    "name": "Priya Menon",
+    "email": "priya@techcorp.internal",
+    "role": "Director Eng",
+    "team": "platform",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u008",
+    "name": "Omar Khan",
+    "email": "omar@techcorp.internal",
+    "role": "Data Engineer",
+    "team": "search",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u009",
+    "name": "Ivy Brooks",
+    "email": "ivy@techcorp.internal",
+    "role": "On-Call Coordinator",
+    "team": "platform",
+    "clearance": "internal"
+  },
+  {
+    "user_id": "u010",
+    "name": "Elena Park",
+    "email": "elena@techcorp.internal",
+    "role": "VP Engineering",
+    "team": "platform",
+    "clearance": "restricted"
+  }
+]
