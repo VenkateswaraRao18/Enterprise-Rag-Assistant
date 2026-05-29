@@ -104,29 +104,26 @@ sequenceDiagram
   participant IG as Input guard
   participant SI as Session identity
   participant R as Hybrid retriever
-  participant ACL as ACL filter
   participant LLM as Gemini chat
   participant OG as Output guard
 
   U->>API: POST /api/ask (query + persona)
   API->>IG: check_input(query)
-  alt blocked
+  alt Input blocked
     IG-->>API: security refusal
-  else identity question
+    API-->>U: blocked response
+  else Identity query
     API->>SI: try_identity_answer
-    SI-->>API: persona response
-  else RAG path
-    API->>R: expand query + search
-    R->>ACL: filter_acl_docs
-    R->>R: BM25 + dense + RRF + diversify
-    R-->>API: top-k evidence + citations
-  alt insufficient evidence
-    API-->>U: abstain message
-  else
-    API->>LLM: generate with evidence blocks
-    LLM-->>API: answer + [n] citations
+    SI-->>API: persona details
+    API-->>U: session identity answer
+  else Hybrid RAG
+    API->>R: expand query and search
+    R-->>API: top-k evidence and citations
+    Note over API: Abstain if evidence is insufficient
+    API->>LLM: generate from evidence blocks
+    LLM-->>API: draft answer with citations
     API->>OG: validate_output
-    OG-->>U: sanitized answer
+    OG-->>U: final grounded response
   end
 ```
 
