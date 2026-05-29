@@ -1,4 +1,6 @@
 import type { Persona } from "../types";
+import ExampleQueries from "./ExampleQueries";
+import { CloseIcon } from "./icons";
 
 type Props = {
   personas: Persona[];
@@ -7,6 +9,8 @@ type Props = {
   examples: string[];
   onExample: (q: string) => void;
   onClearChat: () => void;
+  className?: string;
+  onClose?: () => void;
 };
 
 export default function Sidebar({
@@ -16,11 +20,21 @@ export default function Sidebar({
   examples,
   onExample,
   onClearChat,
+  className = "",
+  onClose,
 }: Props) {
   const persona = personas[personaIdx];
 
   return (
-    <aside className="panel sidebar">
+    <aside className={`panel sidebar ${className}`.trim()}>
+      <div className="drawer-header mobile-only">
+        <h2>Settings</h2>
+        {onClose && (
+          <button type="button" className="icon-btn" onClick={onClose} aria-label="Close menu">
+            <CloseIcon />
+          </button>
+        )}
+      </div>
       <div className="sidebar-section">
         <label className="label">Active identity</label>
         <div className="persona-list">
@@ -29,7 +43,10 @@ export default function Sidebar({
               key={`${p.team}-${p.role}-${i}`}
               type="button"
               className={`persona-card ${i === personaIdx ? "active" : ""}`}
-              onClick={() => onPersonaChange(i)}
+              onClick={() => {
+                onPersonaChange(i);
+                onClose?.();
+              }}
             >
               <span className="persona-card-title">{p.label}</span>
               <span className="persona-card-meta">
@@ -60,17 +77,12 @@ export default function Sidebar({
         </div>
       )}
 
-      <div className="sidebar-section grow">
-        <div className="section-head">
-          <label className="label">Suggested prompts</label>
-        </div>
-        <div className="examples">
-          {examples.map((q) => (
-            <button key={q} type="button" className="example-btn" onClick={() => onExample(q)}>
-              {q}
-            </button>
-          ))}
-        </div>
+      <div className="sidebar-section grow sidebar-examples">
+        <ExampleQueries
+          examples={examples}
+          onSelect={onExample}
+          label="Suggested prompts"
+        />
       </div>
 
       <div className="sidebar-actions">

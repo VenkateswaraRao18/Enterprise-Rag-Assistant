@@ -1,18 +1,28 @@
 import type { Citation } from "../types";
+import { CloseIcon } from "./icons";
 import { groupCitationsByType, parseTitle, sourceIcon, sourceLabel } from "../utils/format";
 
 type Props = {
   citations: Citation[];
+  className?: string;
+  onClose?: () => void;
 };
 
-export default function SourcesPanel({ citations }: Props) {
+export default function SourcesPanel({ citations, className = "", onClose }: Props) {
   const groups = groupCitationsByType(citations);
 
   return (
-    <aside className="panel sources-panel">
+    <aside className={`panel sources-panel ${className}`.trim()}>
       <div className="panel-head">
-        <h2>Evidence</h2>
-        <p>Grounded context used for the latest answer</p>
+        <div className="panel-head-text">
+          <h2>Evidence</h2>
+          <p>Grounded context used for the latest answer</p>
+        </div>
+        {onClose && (
+          <button type="button" className="icon-btn" onClick={onClose} aria-label="Close sources">
+            <CloseIcon />
+          </button>
+        )}
       </div>
 
       {!citations.length ? (

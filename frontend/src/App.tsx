@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { askQuestion, checkHealth, fetchExampleQueries, fetchPersonas } from "./api";
+import { MenuIcon, SourcesIcon } from "./components/icons";
+import ExampleQueries from "./components/ExampleQueries";
 import MessageBubble from "./components/MessageBubble";
 import Sidebar from "./components/Sidebar";
 import SourcesPanel from "./components/SourcesPanel";
@@ -20,6 +22,8 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [apiOk, setApiOk] = useState<boolean | null>(null);
   const [activeCitations, setActiveCitations] = useState<Message["citations"]>([]);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sourcesOpen, setSourcesOpen] = useState(false);
   const messagesRef = useRef<HTMLDivElement>(null);
   const stickToBottomRef = useRef(true);
 
@@ -61,6 +65,30 @@ export default function App() {
   useEffect(() => {
     scrollMessagesToBottom();
   }, [messages, loading, scrollMessagesToBottom]);
+
+  useEffect(() => {
+    const locked = sidebarOpen || sourcesOpen;
+    document.body.classList.toggle("drawer-open", locked);
+    return () => document.body.classList.remove("drawer-open");
+  }, [sidebarOpen, sourcesOpen]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setSidebarOpen(false);
+        setSourcesOpen(false);
+      }
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, []);
+
+  const openSources = useCallback((citations: Message["citations"]) => {
+    setActiveCitations(citations);
+    setSourcesOpen(true);
+  }, []);
+
+  const citationCount = activeCitations?.length ?? 0;
 
   const send = useCallback(
     async (text: string) => {
@@ -117,8 +145,28 @@ export default function App() {
 
   return (
     <div className="app">
+      {(sidebarOpen || sourcesOpen) && (
+        <button
+          type="button"
+          className="drawer-backdrop visible"
+          aria-label="Close panel"
+          onClick={() => {
+            setSidebarOpen(false);
+            setSourcesOpen(false);
+          }}
+        />
+      )}
+
       <header className="topbar">
         <div className="topbar-left">
+          <button
+            type="button"
+            className="icon-btn topbar-menu"
+            aria-label="Open menu"
+            onClick={() => setSidebarOpen(true)}
+          >
+            <MenuIcon />
+          </button>
           <div className="logo">
             <span className="logo-icon" />
             <div>
@@ -131,18 +179,35 @@ export default function App() {
         <div className="topbar-right">
           <div className={`status ${apiOk === true ? "ok" : apiOk === false ? "err" : ""}`}>
             <span className="status-dot" />
-            {apiOk === null ? "Connecting…" : apiOk ? "Systems operational" : "API unavailable"}
+            {apiOk === null ? (
+              "Connecting…"
+            ) : apiOk ? (
+              <>
+                <span className="status-short">Online</span>
+                <span className="status-text-long">Systems operational</span>
+              </>
+            ) : (
+              <>
+                <span className="status-short">Offline</span>
+                <span className="status-text-long">API unavailable</span>
+              </>
+            )}
           </div>
         </div>
       </header>
 
       <div className="workspace">
         <Sidebar
+          className={sidebarOpen ? "is-open" : ""}
+          onClose={() => setSidebarOpen(false)}
           personas={personas}
           personaIdx={personaIdx}
           onPersonaChange={setPersonaIdx}
           examples={examples}
-          onExample={send}
+          onExample={(q) => {
+            send(q);
+            setSidebarOpen(false);
+          }}
           onClearChat={() => {
             setMessages([]);
             setActiveCitations([]);
@@ -152,10 +217,20 @@ export default function App() {
 
         <main className="panel chat-panel">
           <div className="chat-toolbar">
-            <div>
+            <div className="chat-toolbar-main">
               <h2>Assistant</h2>
               <p>Hybrid RAG over Slack, Jira, runbooks, and incidents</p>
             </div>
+            <button
+              type="button"
+              className="icon-btn sources-toggle"
+              aria-label="View sources"
+              disabled={citationCount === 0}
+              onClick={() => setSourcesOpen(true)}
+            >
+              <SourcesIcon />
+              {citationCount > 0 && <span className="badge">{citationCount}</span>}
+            </button>
           </div>
 
           <div className="messages" ref={messagesRef} onScroll={handleMessagesScroll}>
@@ -181,6 +256,13 @@ export default function App() {
                     <span>On-call, escalation, runbooks</span>
                   </div>
                 </div>
+                <ExampleQueries
+                  className="mobile-only chat-examples-welcome"
+                  examples={examples}
+                  onSelect={send}
+                  disabled={loading || !persona}
+                  label="Try a demo query"
+                />
               </div>
             )}
 
@@ -188,7 +270,7 @@ export default function App() {
               <MessageBubble
                 key={m.id}
                 message={m}
-                onViewCitations={() => setActiveCitations(m.citations)}
+                onViewCitations={() => openSources(m.citations)}
               />
             ))}
 
@@ -217,6 +299,15 @@ export default function App() {
             </div>
           )}
 
+          <ExampleQueries
+            className="mobile-only chat-examples-composer"
+            examples={examples}
+            onSelect={send}
+            disabled={loading || !persona}
+            layout="scroll"
+            label="Demo queries"
+          />
+
           <form
             className="composer"
             onSubmit={(e) => {
@@ -243,7 +334,11 @@ export default function App() {
           </form>
         </main>
 
-        <SourcesPanel citations={activeCitations || []} />
+        <SourcesPanel
+          className={sourcesOpen ? "is-open" : ""}
+          citations={activeCitations || []}
+          onClose={() => setSourcesOpen(false)}
+        />
       </div>
     </div>
   );
